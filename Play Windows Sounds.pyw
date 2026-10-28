@@ -53,7 +53,7 @@ if __name__ == "__main__":
         # FIX: Explicitly set the Path and the Host header
         client.ws_set_options(
             path="/mqtt", 
-            headers={"Host": "mqtt2.harringtonassistant.com"}
+            headers={"Host": MQTT_BROKER}
         )
 
         # SSL Configuration

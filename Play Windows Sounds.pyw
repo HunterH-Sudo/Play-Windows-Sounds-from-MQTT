@@ -44,7 +44,7 @@ if __name__ == "__main__":
     try:
         client = mqtt.Client(
             callback_api_version=CallbackAPIVersion.VERSION2, 
-            client_id="Windows_Meme_Player",
+            client_id="",
             transport="websockets"
         )
 
